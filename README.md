@@ -1,1 +1,32 @@
 # API-REST-con-la-base-de-datos-2
+
+OBJETIVO:
+
+Crear una API REST con la base de datos incluida en el fichero eoi.sql y Node.js
+REQUERIMIENTOS:
+
+Hay que realizar las cuatro rutas indicadas en el fichero index.html,  
+de tal modo que debe ser posible acceder a ellas mediante el enlace incluído.
+NO HAY QUE MODIFICAR LAS RUTAS.
+
+También la ruta correspondiente al error 404. 
+
+No te olvides de incluir comentarios en el código: adecuados y suficientes.
+ESPECIFICACIONES:
+
+Realizar el código necesario en app.js y eoi.js.
+
+Configurar la conexión y los parámetros de acceso a la base de datos.
+
+Entregar el ejercicio correctamente.
+
+No hace falta modificar el fichero HTML y/o el CSS, 
+pero lo puedes si tienes una causa JUSTIFICADA.
+Instrucciones
+Instalar dependencias: npm install
+
+Crear la base de datos con initDB.js (si no existe): node initDB.js
+
+Ejecutar el servidor: node app.js
+
+Acceder a http://localhost:3000/ en el navegador.
