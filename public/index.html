@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EOI</title> 
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>API EOI</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Consultas a los datos de nuestra EOI</h2>
+        <dl>
+          <div>
+            <dt>
+              <a href="/api/eoi" target="_blank"
+                ><span class="enlace">/api/eoi</span></a
+              >
+            </dt>
+            <dd>Datos completos de todos los cursos</dd>
+          </div>
+
+          <div>
+            <dt>
+              <form id="formAny">
+                <label
+                  ><span class="enlace">/api/eoi/year/</span
+                  ><input type="text" id="anyo" placeholder="año"
+                /></label>
+              </form>
+            </dt>
+            <dd>Años para la búsqueda : 2016 o 2017</dd>
+          </div>
+
+          <div>
+            <dt>
+              <form id="formAnyTipus">
+                <label
+                  ><span class="enlace">/api/eoi/year/</span>
+                  <input type="text" id="anyo2" placeholder="año" />
+                  <span class="enlace">/type/</span> 
+                  <input type="text" id="tipus" placeholder="tipo" />
+                  <input type="submit" value="" />
+                </label>
+              </form>
+            </dt>
+            <dd>Años para la búsqueda : 2016 o 2017</dd>
+            <dd>Valores para el tipo : ordinari, especial, estiu</dd>
+          </div>
+
+          <div>
+            <dt>
+              <form id="formIdioma">
+                <label
+                  ><span class="enlace">/api/eoi/lang/</span>
+                  <input type="text" id="idioma" placeholder="idioma" />
+                  <input type="submit" value="" />
+                </label>
+              </form>
+            </dt>
+            <dd>
+              Idiomas : inglés - francés - alemán - japonés - chino - ruso
+            </dd>
+            <dd>
+              También en catalán : anglès - francès - alemany - japonès - xinès
+              - rus
+            </dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+    <script src="js/eoi.js"></script>
+  </body>
+</html>
